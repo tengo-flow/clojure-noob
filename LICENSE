@@ -1,0 +1,258 @@
+Last login: Wed Feb 25 11:08:52 on ttys002
+[oh-my-zsh] Random theme 'jnrowe' loaded
+Ξ ~ → nano .emacs.d 
+Ξ ~ → rm -rf .emacs.d 
+Ξ ~ → ls -la
+total 400
+drwxr-x---+ 27 blinko  staff     864 Feb 25 14:13 .
+drwxr-xr-x   5 root    admin     160 Feb 13 14:53 ..
+drwxr-xr-x@  8 blinko  staff     256 Feb 14 00:27 .arduino-create
+drwxr-xr-x@ 12 blinko  staff     384 Feb 13 21:24 .arduinoIDE
+-r--------   1 blinko  staff       7 Feb 12 17:24 .CFUserTextEncoding
+drwxr-xr-x   3 root    staff      96 Feb 18 11:06 .conda
+-rw-r--r--@  1 blinko  staff   10244 Feb 25 11:48 .DS_Store
+-rw-------   1 blinko  staff      20 Feb 25 09:47 .lesshst
+drwxr-xr-x   3 blinko  staff      96 Feb 25 10:02 .m2
+drwxr-xr-x  22 blinko  staff     704 Feb 25 10:32 .oh-my-zsh
+drwx------+  4 blinko  staff     128 Feb 25 08:06 .Trash
+-rw-r--r--   1 blinko  staff   49617 Feb 25 10:48 .zcompdump-blinkos-MacBook-Air-5.9
+-r--r--r--   1 blinko  staff  117424 Feb 25 10:48 .zcompdump-blinkos-MacBook-Air-5.9.zwc
+-rw-------   1 blinko  staff    1634 Feb 25 14:13 .zsh_history
+drwx------  19 blinko  staff     608 Feb 25 11:08 .zsh_sessions
+-rw-r--r--   1 blinko  staff    4072 Feb 25 10:46 .zshrc
+-rw-r--r--   1 blinko  staff      60 Feb 18 11:38 .zshrc.pre-oh-my-zsh
+drwx------@  4 blinko  staff     128 Feb 14 00:22 Applications
+drwx------+  5 blinko  staff     160 Feb 23 15:04 Desktop
+drwx------+ 13 blinko  staff     416 Feb 25 08:14 Documents
+drwx------+ 15 blinko  staff     480 Feb 25 14:13 Downloads
+drwx------@ 91 blinko  staff    2912 Feb 21 12:36 Library
+drwx------   4 blinko  staff     128 Feb 13 07:44 Movies
+drwx------+  4 blinko  staff     128 Feb 12 17:29 Music
+drwx------+  4 blinko  staff     128 Feb 12 17:24 Pictures
+drwxr-xr-x   3 blinko  staff      96 Feb 25 08:37 Projects01
+drwxr-xr-x+  4 blinko  staff     128 Feb 12 17:24 Public
+Ξ ~ → mv Downloads/emacs-for-clojure-book1 ~/.emacs.d
+Ξ ~ → ls -la
+total 400
+drwxr-x---+ 28 blinko  staff     896 Feb 25 14:15 .
+drwxr-xr-x   5 root    admin     160 Feb 13 14:53 ..
+drwxr-xr-x@  8 blinko  staff     256 Feb 14 00:27 .arduino-create
+drwxr-xr-x@ 12 blinko  staff     384 Feb 13 21:24 .arduinoIDE
+-r--------   1 blinko  staff       7 Feb 12 17:24 .CFUserTextEncoding
+drwxr-xr-x   3 root    staff      96 Feb 18 11:06 .conda
+-rw-r--r--@  1 blinko  staff   10244 Feb 25 11:48 .DS_Store
+drwxrwxr-x@  8 blinko  staff     256 Dec 28  2019 .emacs.d
+-rw-------   1 blinko  staff      20 Feb 25 09:47 .lesshst
+drwxr-xr-x   3 blinko  staff      96 Feb 25 10:02 .m2
+drwxr-xr-x  22 blinko  staff     704 Feb 25 10:32 .oh-my-zsh
+drwx------+  4 blinko  staff     128 Feb 25 08:06 .Trash
+-rw-r--r--   1 blinko  staff   49617 Feb 25 10:48 .zcompdump-blinkos-MacBook-Air-5.9
+-r--r--r--   1 blinko  staff  117424 Feb 25 10:48 .zcompdump-blinkos-MacBook-Air-5.9.zwc
+-rw-------   1 blinko  staff    1719 Feb 25 14:15 .zsh_history
+drwx------  19 blinko  staff     608 Feb 25 11:08 .zsh_sessions
+-rw-r--r--   1 blinko  staff    4072 Feb 25 10:46 .zshrc
+-rw-r--r--   1 blinko  staff      60 Feb 18 11:38 .zshrc.pre-oh-my-zsh
+drwx------@  4 blinko  staff     128 Feb 14 00:22 Applications
+drwx------+  5 blinko  staff     160 Feb 23 15:04 Desktop
+drwx------+ 13 blinko  staff     416 Feb 25 08:14 Documents
+drwx------+ 14 blinko  staff     448 Feb 25 14:15 Downloads
+drwx------@ 91 blinko  staff    2912 Feb 21 12:36 Library
+drwx------   4 blinko  staff     128 Feb 13 07:44 Movies
+drwx------+  4 blinko  staff     128 Feb 12 17:29 Music
+drwx------+  4 blinko  staff     128 Feb 12 17:24 Pictures
+drwxr-xr-x   3 blinko  staff      96 Feb 25 08:37 Projects01
+drwxr-xr-x+  4 blinko  staff     128 Feb 12 17:24 Public
+Ξ ~ → cd .emacs.d 
+Ξ ~/.emacs.d → ls
+customizations elpa           init.el        README.md      themes
+Ξ ~/.emacs.d → nano init.el 
+Ξ ~/.emacs.d → cd customizations 
+Ξ .emacs.d/customizations → ls
+editing.el           misc.el              setup-clojure.el     shell-integration.el
+elisp-editing.el     navigation.el        setup-js.el          ui.el
+Ξ .emacs.d/customizations → less setup-clojure.e1
+setup-clojure.e1: No such file or directory
+↑1 .emacs.d/customizations → les setup-clojure.el 
+zsh: command not found: les
+↑127 .emacs.d/customizations → nano ui.el 
+Ξ .emacs.d/customizations → cd ..
+Ξ ~/.emacs.d → cd elpa/rainbow-delimiters-20170929.1132 
+Ξ elpa/rainbow-delimiters-20170929.1132 → ls
+rainbow-delimiters-autoloads.el rainbow-delimiters-pkg.el       rainbow-delimiters.el
+Ξ elpa/rainbow-delimiters-20170929.1132 → ls
+rainbow-delimiters-autoloads.el rainbow-delimiters-pkg.el       rainbow-delimiters.el
+Ξ elpa/rainbow-delimiters-20170929.1132 → cd ..
+Ξ .emacs.d/elpa → ls
+a-20180907.953                               magit-section-4.5.0
+archives                                     memoize-20180614.1930
+async-20180527.1730                          paredit-20171127.205
+cider-1.21.0                                 parseclj-20190531.711
+clojure-mode-20191112.1948                   parseedn-20191113.831
+clojure-mode-extra-font-locking-20190712.639 pkg-info-20150517.1143
+cond-let-0.2.2                               projectile-20180824.2239
+dash-20180903.1042                           queue-0.2
+epl-20180205.2049                            rainbow-delimiters-20170929.1132
+exec-path-from-shell-20180324.204            s-20180406.808
+ghub-20180909.2230                           sesman-20190909.1754
+git-commit-20180802.2018                     smex-20151212.2209
+ido-completing-read+-20180628.244            spinner-1.7.4
+llama-1.0.3                                  tagedit-20161121.855
+magit-4.5.0                                  transient-0.12.0
+magit-popup-20180726.2037                    with-editor-20180726.2044
+Ξ .emacs.d/elpa → ls -l
+total 0
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 a-20180907.953
+drwxrwxr-x@   6 blinko  staff   192 Feb 25 18:43 archives
+drwxrwxr-x@   8 blinko  staff   256 Dec 28  2019 async-20180527.1730
+drwxr-xr-x@  86 blinko  staff  2752 Feb 25 21:25 cider-1.21.0
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 clojure-mode-20191112.1948
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 clojure-mode-extra-font-locking-20190712.639
+drwxr-xr-x@   6 blinko  staff   192 Feb 25 21:24 cond-let-0.2.2
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 dash-20180903.1042
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 epl-20180205.2049
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 exec-path-from-shell-20180324.204
+drwxrwxr-x@   9 blinko  staff   288 Dec 28  2019 ghub-20180909.2230
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 git-commit-20180802.2018
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 ido-completing-read+-20180628.244
+drwxr-xr-x@   7 blinko  staff   224 Feb 25 21:24 llama-1.0.3
+drwxr-xr-x@ 102 blinko  staff  3264 Feb 25 21:24 magit-4.5.0
+drwxrwxr-x@   7 blinko  staff   224 Dec 28  2019 magit-popup-20180726.2037
+drwxr-xr-x@   8 blinko  staff   256 Feb 25 21:24 magit-section-4.5.0
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 memoize-20180614.1930
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 paredit-20171127.205
+drwxrwxr-x@   8 blinko  staff   256 Dec 28  2019 parseclj-20190531.711
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 parseedn-20191113.831
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 pkg-info-20150517.1143
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 projectile-20180824.2239
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 queue-0.2
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 rainbow-delimiters-20170929.1132
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 s-20180406.808
+drwxrwxr-x@   6 blinko  staff   192 Dec 28  2019 sesman-20190909.1754
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 smex-20151212.2209
+drwxr-xr-x@  10 blinko  staff   320 Feb 25 21:24 spinner-1.7.4
+drwxrwxr-x@   5 blinko  staff   160 Dec 28  2019 tagedit-20161121.855
+drwxr-xr-x@   9 blinko  staff   288 Feb 25 21:24 transient-0.12.0
+drwxrwxr-x@   7 blinko  staff   224 Dec 28  2019 with-editor-20180726.2044
+Ξ .emacs.d/elpa → cd ..
+Ξ ~/.emacs.d → ls
+auto-save-list           cider-history            elpa                     init.el                  README.md
+backups                  customizations           ido.last                 projectile-bookmarks.eld themes
+Ξ ~/.emacs.d → cd customizations 
+Ξ .emacs.d/customizations → ls
+editing.el           misc.el              setup-clojure.el     shell-integration.el
+elisp-editing.el     navigation.el        setup-js.el          ui.el
+Ξ .emacs.d/customizations → cd .
+Ξ .emacs.d/customizations → cd ..
+Ξ ~/.emacs.d → cd elpa 
+Ξ .emacs.d/elpa → ls
+a-20180907.953                               magit-section-4.5.0
+archives                                     memoize-20180614.1930
+async-20180527.1730                          paredit-20171127.205
+cider-1.21.0                                 parseclj-20190531.711
+clojure-mode-20191112.1948                   parseedn-20191113.831
+clojure-mode-extra-font-locking-20190712.639 pkg-info-20150517.1143
+cond-let-0.2.2                               projectile-20180824.2239
+dash-20180903.1042                           queue-0.2
+epl-20180205.2049                            rainbow-delimiters-20170929.1132
+exec-path-from-shell-20180324.204            s-20180406.808
+ghub-20180909.2230                           sesman-20190909.1754
+git-commit-20180802.2018                     smex-20151212.2209
+ido-completing-read+-20180628.244            spinner-1.7.4
+llama-1.0.3                                  tagedit-20161121.855
+magit-4.5.0                                  transient-0.12.0
+magit-popup-20180726.2037                    with-editor-20180726.2044
+Ξ .emacs.d/elpa → cd ..
+Ξ ~/.emacs.d → nano init.el 
+Ξ ~/.emacs.d → cd elpa 
+Ξ .emacs.d/elpa → ls
+a-20180907.953                               magit-section-4.5.0
+archives                                     memoize-20180614.1930
+async-20180527.1730                          paredit-20171127.205
+cider-1.21.0                                 parseclj-20190531.711
+clojure-mode-20191112.1948                   parseedn-20191113.831
+clojure-mode-extra-font-locking-20190712.639 pkg-info-20150517.1143
+cond-let-0.2.2                               projectile-20180824.2239
+dash-20180903.1042                           queue-0.2
+epl-20180205.2049                            rainbow-delimiters-20170929.1132
+exec-path-from-shell-20180324.204            s-20180406.808
+ghub-20180909.2230                           sesman-20190909.1754
+git-commit-20180802.2018                     smex-20151212.2209
+ido-completing-read+-20180628.244            spinner-1.7.4
+llama-1.0.3                                  tagedit-20161121.855
+magit-4.5.0                                  transient-0.12.0
+magit-popup-20180726.2037                    with-editor-20180726.2044
+Ξ .emacs.d/elpa → cd cider-1.21.0 
+Ξ elpa/cider-1.21.0 → ls
+cider-apropos.el             cider-connection.el          cider-log.elc                cider-scratch.elc
+cider-apropos.elc            cider-connection.elc         cider-macroexpansion.el      cider-selector.el
+cider-autoloads.el           cider-debug.el               cider-macroexpansion.elc     cider-selector.elc
+cider-browse-ns.el           cider-debug.elc              cider-mode.el                cider-stacktrace.el
+cider-browse-ns.elc          cider-doc.el                 cider-mode.elc               cider-stacktrace.elc
+cider-browse-spec.el         cider-doc.elc                cider-ns.el                  cider-test.el
+cider-browse-spec.elc        cider-docstring.el           cider-ns.elc                 cider-test.elc
+cider-cheatsheet.el          cider-docstring.elc          cider-overlays.el            cider-tracing.el
+cider-cheatsheet.elc         cider-eldoc.el               cider-overlays.elc           cider-tracing.elc
+cider-classpath.el           cider-eldoc.elc              cider-pkg.el                 cider-util.el
+cider-classpath.elc          cider-eval.el                cider-popup.el               cider-util.elc
+cider-client.el              cider-eval.elc               cider-popup.elc              cider-xref-backend.el
+cider-client.elc             cider-find.el                cider-profile.el             cider-xref-backend.elc
+cider-clojuredocs.el         cider-find.elc               cider-profile.elc            cider-xref.el
+cider-clojuredocs.elc        cider-format.el              cider-repl-history.el        cider-xref.elc
+cider-common.el              cider-format.elc             cider-repl-history.elc       cider.el
+cider-common.elc             cider-inspector.el           cider-repl.el                cider.elc
+cider-completion-context.el  cider-inspector.elc          cider-repl.elc               nrepl-client.el
+cider-completion-context.elc cider-jar.el                 cider-resolve.el             nrepl-client.elc
+cider-completion.el          cider-jar.elc                cider-resolve.elc            nrepl-dict.el
+cider-completion.elc         cider-log.el                 cider-scratch.el             nrepl-dict.elc
+Ξ elpa/cider-1.21.0 → less cider-stacktrace.el
+Ξ elpa/cider-1.21.0 → cd    
+Ξ ~ → cd Projects01 
+Ξ ~/Projects01 → ls
+clojure-noob
+Ξ ~/Projects01 →                cd clojure-noob 
+Ξ Projects01/clojure-noob → ls
+CHANGELOG.md doc          LICENSE      project.clj  README.md    resources    src          target       test
+Ξ Projects01/clojure-noob → less CHANGELOG.md 
+Ξ Projects01/clojure-noob → less 
+Missing filename ("less --help" for help)
+Ξ Projects01/clojure-noob → less LICENSE 
+
+reserves the right to publish new versions (including revisions) of
+this Agreement from time to time. No one other than the Agreement
+Steward has the right to modify this Agreement. The Eclipse Foundation
+is the initial Agreement Steward. The Eclipse Foundation may assign the
+responsibility to serve as the Agreement Steward to a suitable separate
+entity. Each new version of the Agreement will be given a distinguishing
+version number. The Program (including Contributions) may always be
+Distributed subject to the version of the Agreement under which it was
+received. In addition, after a new version of the Agreement is published,
+Contributor may elect to Distribute the Program (including its
+Contributions) under the new version.
+
+Except as expressly stated in Sections 2(a) and 2(b) above, Recipient
+receives no rights or licenses to the intellectual property of any
+Contributor under this Agreement, whether expressly, by implication,
+estoppel or otherwise. All rights in the Program not expressly granted
+under this Agreement are reserved. Nothing in this Agreement is intended
+to be enforceable by any entity that is not a Contributor or Recipient.
+No third-party beneficiary rights are created under this Agreement.
+
+Exhibit A - Form of Secondary Licenses Notice
+
+"This Source Code may also be made available under the following
+Secondary Licenses when the conditions for such availability set forth
+in the Eclipse Public License, v. 2.0 are satisfied: GNU General Public
+License as published by the Free Software Foundation, either version 2
+of the License, or (at your option) any later version, with the GNU
+Classpath Exception which is available at
+https://www.gnu.org/software/classpath/license.html."
+
+  Simply including a copy of this Agreement, including this Exhibit A
+  is not sufficient to license the Source Code under Secondary Licenses.
+
+  If it is not possible or desirable to put the notice in a particular
+  file, then You may include the notice in a location (such as a LICENSE
+  file in a relevant directory) where a recipient would be likely to
+  look for such a notice.
+
+  You may add additional accurate notices of copyright ownership.
